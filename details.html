@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="img"></div>
+    <div id="name"></div>
+    <div id="desc"></div>
+    <div id="link"></div>
+    <div id="block"></div>
+    <script>
+        document.getElementById("img").innerHTML = localStorage.getItem("result0")
+        document.getElementById("name").innerHTML = localStorage.getItem("result1")
+        document.getElementById("desc").innerHTML = localStorage.getItem("result2")
+        document.getElementById("link").innerHTML = localStorage.getItem("result3")
+        document.getElementById("block").innerHTML = localStorage.getItem("result4")
+    </script>
+</body>
+</html>
